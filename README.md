@@ -26,17 +26,30 @@ Version Control: Git & GitHub
 Repository Clone Karein:
 
 Bash
-git clone https://github.com/Deepak-Yadav555/scheduling-automation-app.git
-cd scheduling-automation-app
+
+ code =   git clone https://github.com/Deepak-Yadav555/scheduling-automation-app.git
+code =    cd scheduling-automation-app
+
+
 Virtual Environment Banayein:
 
 Bash
-python -m venv venv
-source venv/bin/activate  # Windows ke liye: venv\Scripts\activate
+
+
+
+code =    python -m venv venv
+code =    source venv/bin/activate  # Windows ke liye: venv\Scripts\activate
+
+
+
 Dependencies Install Karein:
 
 Bash
-pip install -r requirements.txt
+
+
+code =    pip install -r requirements.txt
+
+
 Google API Credentials:
 
 Google Cloud Console par jayein aur ek naya project banayein.
@@ -46,7 +59,11 @@ Google Calendar API enable karein aur OAuth 2.0 credentials download karke crede
 App Chalaein:
 
 Bash
-streamlit run app.py
+
+
+code =    streamlit run app.py
+
+
 🧑‍💻 Author
 Deepak Yadav Data Science Student @ IIT Madras
 
@@ -63,4 +80,5 @@ Bash
 git add README.md
 git commit -m "docs: finalize professional readme"
 git push origin main
+
 
